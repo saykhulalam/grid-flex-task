@@ -4,9 +4,8 @@ import Image from "next/image";
 import image from "../../public/MyImage.png";
 
 const Gride = () => {
-  // Create an array with 15 elements
   const items = Array.from({ length: 15 });
-  // Create an array with 5 elements for looping the "loop" div
+
   const loopItems = Array.from({ length: 5 });
 
   return (

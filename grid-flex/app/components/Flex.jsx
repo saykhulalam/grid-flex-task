@@ -4,7 +4,7 @@ import Image from "next/image";
 import image from "../../public/MyImage.png";
 
 const Flex = () => {
-  // Create an array with 15 elements
+ 
   const items = Array.from({ length: 15 });
 
   return (
